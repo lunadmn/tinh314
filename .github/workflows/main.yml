@@ -1,0 +1,17 @@
+# Thay đổi thư mục đến nơi bạn lưu trữ tập dữ liệu
+cd "C:\Users\NAME\Downloads\SeoulBikeData.csv"
+
+# Khởi tạo một kho lưu trữ Git mới
+git init
+
+# Thêm tập dữ liệu của bạn vào kho lưu trữ
+git add your_dataset.csv
+
+# Commit tập dữ liệu
+git commit -m "Add dataset"
+
+# Thêm remote origin cho kho lưu trữ trên GitHub
+git remote add origin https://github.com/username/repository.git
+
+# Đẩy tập dữ liệu lên GitHub
+git push -u origin main

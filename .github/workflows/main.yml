@@ -1,11 +1,5 @@
-# Thay đổi thư mục đến nơi bạn lưu trữ tập dữ liệu
-cd "C:\Users\NAME\Downloads\SeoulBikeData.csv"
-
-# Khởi tạo một kho lưu trữ Git mới
-git init
-
 # Thêm tập dữ liệu của bạn vào kho lưu trữ
-git add your_dataset.csv
+git add "C:\Users\NAME\Downloads\SeoulBikeData.csv"
 
 # Commit tập dữ liệu
 git commit -m "Add dataset"
